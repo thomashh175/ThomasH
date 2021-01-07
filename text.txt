@@ -1,0 +1,15 @@
+ocsp.int-x3.letsencrypt.org
+ocsp.apple.com
+world-gen.g.aaplimg.com
+mesu.apple.com
+gdmf.apple.com
+www.gdmf.apple.com
+ppq.apple.com
+iadsdk.apple.com
+googleads.g.doubleclick.net
+googletagservices.com
+stats.g.doubleclick.net
+adclick.g.douclick.net
+ocsp.apple.com
+ppq.apple.com 
+about:blank
