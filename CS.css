@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: "montserrat";
-  background-image: linear-gradient(125deg,#000000,#242222,#7A7676,#9E9E9E,#FFFFFF);
+  background-image: linear-gradient(125deg, #021AAA, #E71A00, #021AAA, #E71A00, #FFFFFF);
   background-size: 400% 400%;
   animation: bganimation 15s infinite;
 }
