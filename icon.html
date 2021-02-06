@@ -1,0 +1,37 @@
+<div class="content">
+      <div class="images">
+<center>     <img src="
+https://raw.githubusercontent.com/BHornbeck-ux/new/main/B59CF6FE-8140-4A8D-BD9F-BB89FDB4947D.png
+">
+ <center>     <img src="
+https://raw.githubusercontent.com/BHornbeck-ux/AppInstaller.github.io/main/49BF7440-6661-4034-84DB-85F10E2FC39D.png
+">
+  <center>     <img src="
+https://raw.githubusercontent.com/BHornbeck-ux/new/main/2945FBC1-0C48-4FA5-910D-4C626E18DFAF.png
+">
+  <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/BenjaminAppInstaller/main/IMG_0582.PNG">
+  <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/6138B1CE-E1D4-4AEA-92E3-29E879F17998.png">
+   <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/6B848FC2-84BC-4836-A93A-E523E7B84B9F.png">
+    <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/24C0426D-3F3C-4396-84B8-C239EA137018.png">
+      <center> <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/0DA3CF93-4FE5-4231-A48B-B7FCEF0BB968.png">
+   <center>     <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/1148DC4C-C416-4057-A240-6FC327A5FF24.png">
+      <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/E7A73F68-1122-4C94-83D9-2D99AA390603.png">
+      <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/514002E1-D37A-4A26-930A-DC4766CABA09.png">
+ <center>   <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/40F23F03-C1D5-4728-A576-C0A44C14A5BA.png">
+      </div>
+</div>
+<script>
+      var indexValue = 0;
+      function slideShow(){
+        setTimeout(slideShow, 2500);
+        var x;
+        const img = document.querySelectorAll("img");
+        for(x = 0; x < img.length; x++){
+          img[x].style.display = "none";
+        }
+        indexValue++;
+        if(indexValue > img.length){indexValue = 1}
+        img[indexValue -1].style.display = "block";
+      }
+      slideShow();
+    </script>
