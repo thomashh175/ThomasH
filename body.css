@@ -1,0 +1,61 @@
+body {
+background: #e0e5ec;
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    -o-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+.btn {
+background-color: #e0e5ec;
+
+background-size: 800% 800%;
+
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:15px solid #000000;
+font-family: SF;
+}
+.icons {
+background-color: #e0e5ec;
+background-image: linear-gradient(to right, #1341cd, #48d356);
+ background-size: 800% 800%;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:10px solid #000000;
+font-family: SF;
+}
